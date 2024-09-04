@@ -31,7 +31,8 @@ nav>ul {
     color: cornflowerblue;
     list-style: none;
     display: flex;
-    gap: 4rem;
+    align-items: center;
+    gap: 2rem;
     padding: 0;
 }
 
@@ -77,8 +78,8 @@ nav {
 }
 
 :root {
-    --color-light: #f0f0f0;
-    --color-dark: rgb(218, 24, 24);
+    --color-light:rgb(255, 255, 255);
+    --color-dark: rgb(82, 11, 11);
     --color-primary: #ec325a;
     --color-secondary: #4a0080;
 }
@@ -90,7 +91,7 @@ nav {
     padding: 0.375rem 0.75rem;
     color: var(--color-light);
     background-color: var(--color-dark);
-    border: 1px solid transparent;
+    border: 1px solid black;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -101,3 +102,4 @@ nav {
 .btn-rounded {
     border-radius: 5%;
 }
+
